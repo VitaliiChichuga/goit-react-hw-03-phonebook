@@ -73,7 +73,7 @@ render() {
         {contacts.length > 1 && (<Filter value={filter} onChange={changeFilter}/>)}
         {contacts.length > 0 
         ? (<ContactList contacts={visibleContacts} onDeleteContact={deleteContact}/>)
-        : (<p>Your Phonebook is empty. Please add contact.</p>)}
+        : (<p>Your phonebook is empty. Please add contact.</p>)}
     </Container>
     );
   }
